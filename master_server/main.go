@@ -1,9 +1,8 @@
 package main
 
 import (
-	"github.com/kermitbu/gant-log"
-
-	"github.com/kermitbu/gant-core"
+	core "github.com/kermitbu/gant-core"
+	log "github.com/kermitbu/gant-log"
 )
 
 type MasterServer struct {
@@ -29,5 +28,5 @@ func InitTcpSvr(port string) {
 }
 
 func main() {
-	InitTcpSvr("3900")
+	InitTcpSvr("9687")
 }
